@@ -1,3 +1,12 @@
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
 body {
     background-color: #00b4d0;
 }
@@ -34,7 +43,12 @@ body {
 }
 
 .right-column {
-
+    display: inline-block;
+    width: calc(60% - 80px);
+    padding: 40px;
+    border: 15px solid red;
+    float: left;
+    background-color: violet;
 }
 
 .close {
